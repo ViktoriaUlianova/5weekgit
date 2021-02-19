@@ -7,73 +7,6 @@
     <link rel="stylesheet" href="assets/styles/style.css">
     <link rel="stylesheet" href="assets/styles/normalize.css">
     <title>Firstgit</title>
-    <style>
-        header {
-            border: 1px solid pink;
-            display: flex;
-            justify-content: center;
-            background-color: grey;
-
-        }
-
-        .up {
-            border: 1px solid orange;
-            display: inline-flex;
-            flex-direction: row;
-            width: 20vw;
-
-            background-color: rgb(255, 250, 179);
-
-            align-items: stretch;
-        }
-
-        .down {
-            background-color: rgb(255, 250, 179);
-            border: 1px solid orange;
-            display: flex;
-            width: 40;
-        }
-
-        main {
-            background-color: rgb(255, 239, 225);
-            display: flex;
-            justify-content: flex-start;
-            width: 100%;
-        }
-
-        .more {}
-
-
-
-        aside {
-            display: flex;
-            border: 1px solid green;
-            background-color: palegreen;
-            justify-content: flex-end;
-            width: 50%;
-
-        }
-
-        .footer {
-            border: 1px solid pink;
-            background-color: white;
-            height: 7vh;
-            width: 17vw;
-            text-align: center;
-
-        }
-
-        footer {
-            border: 1px solid pink;
-            background-color: lightgray;
-            display: flex;
-            flex-direction: row;
-            justify-content: space-around;
-            align-items: center;
-            height: 10vh;
-
-        }
-    </style>
 
 </head>
 
@@ -82,14 +15,24 @@
         <h2>Шапка страницы</h2>
     </header>
     <main>
-        Основная часть
-        <div class="more">
-            <p class="up">Еще 1</p>
-            <p class="up">Еще 2</p>
-            <p class="down">Еще 3</p>
+        <div class="main-part">
+            <div class="main-part-text">
+                <p>Основная часть</p>
+            </div>
+
+            <div class="blocks">
+                <div class="more-2" style="text-align: center;">
+                    <p class="more-short">Еще 1</p>
+                    <p class="more-short">Еще 2</p>
+                </div>
+                <div class="more-1">
+                    <p class="more-long">Еще 3</p>
+                </div>
+
+            </div>
         </div>
         <aside>
-            <div>Боковая часть</div>
+            <p>Боковая часть</p>
         </aside>
     </main>
 

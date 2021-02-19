@@ -1,0 +1,82 @@
+header {
+    border: 1px solid pink;
+    display: flex;
+    justify-content: center;
+    background-color: grey;
+
+}
+
+
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+.main-part {
+    background-color: rgb(255, 239, 225);
+    width: 66vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+
+.more-2 {
+    display: inline-flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.more-1 {
+    text-align: center;
+
+}
+
+aside {
+    display: flex;
+    border: 1px solid green;
+    background-color: palegreen;
+    justify-content: center;
+    width: 33vw;
+    height: 50vh;
+}
+
+
+.more-short {
+    border: 1px solid orange;
+    background-color: rgb(255, 250, 179);
+    height: 10vh;
+    width: 30vw;
+}
+
+.more-long {
+    border: 1px solid orange;
+    background-color: rgb(255, 250, 179);
+    height: 10vh;
+    width: 60vw;
+
+}
+
+
+
+.footer {
+    border: 1px solid pink;
+    background-color: white;
+    height: 7vh;
+    width: 17vw;
+    text-align: center;
+
+}
+
+footer {
+    border: 1px solid pink;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+
+}
