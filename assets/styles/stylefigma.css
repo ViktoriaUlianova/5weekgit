@@ -15,12 +15,12 @@
 
 .main-article {
     display: flex;
-
-    flex-basis: 100%
 }
 
 .text {
+    padding: 5%;
     width: 60vw;
+
 
 }
 
@@ -32,7 +32,7 @@ main {
     flex: 1;
 }
 
-p.main-text {
+.main-text {
 
     font-family: 'Jost', sans-serif;
     font-size: x-large;
@@ -49,12 +49,27 @@ p.main-text {
 
 footer {
     text-align: center;
+
+}
+
+.footer {
+    border: 1px solid pink;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    margin: auto;
+    width: 10%;
+    ;
 }
 
 .contact-details {
-    background-color: rgba(202, 126, 90, 0.25);
+    display: flex;
+
 }
 
+.adress {
+    background-color: rgba(202, 126, 90, 0.25);
+}
 
 .main-article h5:hover {
     animation-name: change-color;
@@ -69,6 +84,19 @@ a.link:hover {
 a.link:visited {
     color: blue;
 }
+
+.linkf {
+    color: black;
+    text-decoration: none;
+
+}
+
+.linkf:hover {
+    color: darkorchid;
+    text-decoration: underline;
+}
+
+
 
 .link {
     color: black;
